@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="UploadControl_CustomPreviewImages.MainPage" 
+             xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/controls" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d">
+    <Grid Background="White">
+        <dxc:UploadControl WebHandlerUri="http://demos.devexpress.com/AgUploadDemoWebService/" 
+                           FileUploadCompleted="uploadControl_FileUploadCompleted" 
+                           UploadServerPath="Images" 
+                           x:Name="uploadControl" 
+                           Width="532" />
+    </Grid>
+</UserControl>
