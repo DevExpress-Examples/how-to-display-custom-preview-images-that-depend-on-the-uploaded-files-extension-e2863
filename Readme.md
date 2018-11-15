@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainPage.xaml](./CS/UploadControl_CustomPreviewImages/MainPage.xaml) (VB: [MainPage.xaml.vb](./VB/UploadControl_CustomPreviewImages/MainPage.xaml.vb))
+* [MainPage.xaml.cs](./CS/UploadControl_CustomPreviewImages/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/UploadControl_CustomPreviewImages/MainPage.xaml.vb))
+<!-- default file list end -->
 # How to display custom preview images that depend on the uploaded file's extension
 
 
